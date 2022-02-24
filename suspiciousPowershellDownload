@@ -1,0 +1,1 @@
+((source="WinEventLog:Microsoft-Windows-PowerShell/Operational" source="WinEventLog:*") ("System.Net.WebClient).DownloadString(" OR "system.net.webclient).downloadfile("))
