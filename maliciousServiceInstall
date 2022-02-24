@@ -1,0 +1,1 @@
+((source="WinEventLog:System" source="WinEventLog:*") (((EventCode="7045" OR EventCode="4697") ("WCE SERVICE" OR "WCESERVICE" OR "DumpSvc")) OR (EventCode="16" HiveName="*\\AppData\\Local\\Temp\\SAM*.dmp")))
